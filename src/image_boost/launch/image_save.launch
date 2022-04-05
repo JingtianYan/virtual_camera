@@ -1,0 +1,9 @@
+<launch>
+
+  <node pkg="image_boost" type="imageSave" name="imageSave" output="screen" required="true">
+    <param name="image_dir" type="string" value="$(find image_boost)/images" />
+    <param name="disThre" type="double" value="0.5" />
+    <param name="angThre" type="double" value="0.5" />
+  </node>
+
+</launch>

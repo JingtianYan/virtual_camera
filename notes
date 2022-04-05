@@ -1,0 +1,7 @@
+Use command line below side by side with running the system in Gazebo, fly around to save images in the 'src/image_boost/images' folder 
+
+  roslaunch image_boost image_save.launch
+  
+Then, run image_boost, run command line below side by side with the system. A reprojected image window will show up using images from the 'src/image_boost/images' folder.
+
+  roslaunch image_boost image_boost.launch

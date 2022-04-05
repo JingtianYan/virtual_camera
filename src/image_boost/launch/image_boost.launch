@@ -1,0 +1,17 @@
+<launch>
+
+  <node pkg="image_boost" type="imageBoost" name="imageBoost" output="screen" required="true">
+    <param name="image_dir" type="string" value="$(find image_boost)/images" />
+    <param name="imageLoadDis" type="double" value="10.0" />
+    <param name="maxDepth" type="double" value="29.5" />
+    <param name="maxDepthMatchDiff" type="double" value="0.2" />
+    <param name="maxDepthPixelDiff" type="double" value="0.2" />
+    <param name="minAngleMatchDiff" type="double" value="1.0" />
+    <param name="angleToDisGain" type="double" value="10.0" />
+    <param name="fx" type="double" value="295.608024" />
+    <param name="fy" type="double" value="295.608024" />
+    <param name="cx" type="double" value="319.5" />
+    <param name="cy" type="double" value="179.5" />
+  </node>
+
+</launch>
